@@ -107,8 +107,10 @@ footer {
 .hero {
     display: flex;
     flex-direction: row;
-    padding: 0rem 2rem;
+    padding: 2rem;
+    
     margin: auto;
+    margin-top: 3rem;
     gap: 6rem;    
     max-width: 1120px;
     height: 60vh;
@@ -232,6 +234,7 @@ footer {
     gap: 2rem;
     flex-basis: 26rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     
    
 
@@ -253,6 +256,22 @@ footer {
     margin-top: 2rem;
     overflow: hidden;
     text-overflow: ellipsis;
+
+}
+
+.card-receita-avaliacao {
+    background: #241a1c;
+    padding: 2rem;
+    
+    max-width: 26rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 26rem;
+    margin-top: 2rem;
+    
+   
 
 }
 
@@ -387,4 +406,51 @@ footer {
     max-width: 35%;
     margin-right: 0;
     padding-right: 0;
+}
+
+.img-custo-beneficio {
+    border: none;
+    max-width: 15%;
+    margin-right: 0.5rem;
+    padding-right: 0;
+    
+}
+
+.avaliacao-detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+.custo-beneficio-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custo-beneficio-header-combine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cusuto-beneficio-bars {
+    display: flex;
+    flex-direction: row;
+}
+
+progress {
+    display:block;
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #181012;
+    border-radius: 50px;
+    height: 1rem;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 50px;
+    background-color: #A45A49;
 }
