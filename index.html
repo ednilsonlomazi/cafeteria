@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eddie's Coffee Shop</title>
-    <meta name="description" content="O melhor caféa de Barretos e região">
+    <meta name="description" content="O melhor café de Barretos e região">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <nav>
-            <span class="logo">cafeteria ria</span>
-            <ul class="menu">
-                <li><a href="" class="menu">Home</a></li>
-                <li><a href="" class="menu">Receitas</a></li>
-                <li><a href="" class="menu">Novidades</a></li>
-                <li><a href="" class="menu">Mais pedidos</a></li>
-            </ul>
-            <a href="" class="git">Github</a>
+            <div class="logo">
+                <span >Coffeland</span>
+            </div>
+            <div class="menu">
+                <ul class="menu">
+                    <li><a href="" class="menu">Home</a></li>
+                    <li><a href="" class="menu">Receitas</a></li>
+                    <li><a href="" class="menu">Novidades</a></li>
+                    <li><a href="" class="menu">Mais pedidos</a></li>
+                </ul>
+            </div>
+            <div class="div-git">
+                <a href="https://github.com/ednilsonlomazi/cafeteria" target="_blank" class="git">Github</a>
+            </div>
+            
         </nav>
     </header>
     <main>
@@ -46,11 +53,7 @@
             </section>           
         </div>
 
-        <section class="btn-container">
-            <button type="button" class="btn">
-                <img src="./assets/arrow.svg">
-            </button>
-        </section>
+ 
         <section class="receitas">
             <header class="receitas-cabecalho">
                 <span class="destaque marrom">receitas</span>
@@ -61,10 +64,11 @@
                 <div class="card">
                     <header class="card-cabecalho">
                         <div class="card-cabecalho-detalhe">
-                            <spam class="destaque amarelo">em alta</spam>
+                            
                             <h3 class="card-receita-titulo">Milkshake de café</h3>
+                            <img src="./assets/icons8-gostar-50-amarelo.png" class="img-gostar">
                         </div>
-                        <p class="card-avaliacao">incrível . 4/4</p>          
+                                  
 
                     </header>
                     <p class="card-descricao">Uma sobremesa deliciosa para tomar aos finais de semana</p>
@@ -76,25 +80,25 @@
                 <div class="card">
                     <header class="card-cabecalho">
                         <div class="card-cabecalho-detalhe">
-                            <spam class="destaque amarelo">em alta</spam>
+                            
                             <h3 class="card-receita-titulo">Cappuccino</h3>
                         </div>
-                        <p class="card-avaliacao">incrível . 4/4</p>          
+                        <p class="card-avaliacao">8 votos</p>          
 
                     </header>
                     <p class="card-descricao">Para começar o dia com muita energia e disposição</p>
                     <div class="card-autor">
-                        <img src="https://avatars.githubusercontent.com/u/167010943?v=4" class="card-img">
+                        <img src="https://avatars.githubusercontent.com/u/65460604?v=4" class="card-img">
                         <span class="card-nome-autor">Samanta</span>
                     </div>
                 </div>
                 <div class="card">
                     <header class="card-cabecalho">
                         <div class="card-cabecalho-detalhe">
-                            <spam class="destaque amarelo">em alta</spam>
+                           
                             <h3 class="card-receita-titulo">Mousse de café</h3>
                         </div>
-                        <p class="card-avaliacao">incrível . 4/4</p>          
+                        <p class="card-avaliacao">5 votos</p>          
 
                     </header>
                     <p class="card-descricao">Se você deseja algo diferente e inusitado, éssa é sua escolha</p>
@@ -122,42 +126,35 @@
                     </div>
                     <div class="card-chefe-nome-desc">
                         <img src="https://avatars.githubusercontent.com/u/167010943?v=4" class="card-img-chefe">
-                        <p class="card-descricao-chefe">Olá, sou o Ednilson! Gosto muito de postar aqui na comunidade sobre receitas de café gelado e sobremesas de café. Mas também não dispenso um cafezin quente pela manhã, especialmente em dias frios...........aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
+                        <p class="card-descricao-chefe">Olá, sou o Ednilson! Gosto muito de postar aqui na comunidade sobre receitas de café gelado e sobremesas de café. Mas também não dispenso um cafezin quente pela manhã, especialmente em dias frios...........aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
                     </div>
                 </div>
-                <div class="card">
-                    <header class="card-cabecalho">
-                        <div class="card-cabecalho-detalhe">
-                            <spam class="destaque amarelo">em alta</spam>
-                            <h3 class="card-receita-titulo">Cappuccino</h3>
+                <div class="receitas-cards-container">
+                    <div class="card-chefe">
+                        <div class="card-autor-chefe">
+                            <span class="card-nome-autor">Emanuel Pereira</span>
+                           
+     
                         </div>
-                        <p class="card-avaliacao">incrível . 4/4</p>          
-
-                    </header>
-                    <p class="card-descricao">Para todos que apreciam uma cremosidade em seu café</p>
-                    <div class="card-autor">
-                        <img src="https://avatars.githubusercontent.com/u/167010943?v=4" class="card-img">
-                        <span class="card-nome-autor">Ednilson Lomazi</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <header class="card-cabecalho">
-                        <div class="card-cabecalho-detalhe">
-                            <spam class="destaque amarelo">em alta</spam>
-                            <h3 class="card-receita-titulo">Cappuccino</h3>
+                        <div class="card-chefe-nome-desc">
+                            <img src="https://avatars.githubusercontent.com/u/65460604?v=4" class="card-img-chefe">
+                            <p class="card-descricao-chefe">Olá, sou o Ednilson! Gosto muito de postar aqui na comunidade sobre receitas de café gelado e sobremesas de café. Mas também não dispenso um cafezin quente pela manhã, especialmente em dias frios...........aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
                         </div>
-                        <p class="card-avaliacao">incrível . 4/4</p>          
-
-                    </header>
-                    <p class="card-descricao">Para todos que apreciam uma cremosidade em seu café</p>
-                    <div class="card-autor">
-                        <img src="https://avatars.githubusercontent.com/u/167010943?v=4" class="card-img">
-                        <span class="card-nome-autor">Ednilson Lomazi</span>
-                    </div>
+                    </div>  
                 </div>
-                   
-                       
-            </div>
+                <div class="receitas-cards-container">
+                    <div class="card-chefe">
+                        <div class="card-autor-chefe">
+                            <span class="card-nome-autor">Everaldo José Neto</span>
+                           
+     
+                        </div>
+                        <div class="card-chefe-nome-desc">
+                            <img src="https://avatars.githubusercontent.com/u/65460604?v=4" class="card-img-chefe">
+                            <p class="card-descricao-chefe">Olá, sou o Ednilson! Gosto muito de postar aqui na comunidade sobre receitas de café gelado e sobremesas de café. Mas também não dispenso um cafezin quente pela manhã, especialmente em dias frios...........aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
+                        </div>
+                    </div>  
+                </div>                
         </section>     
     </main>
     <footer>
