@@ -460,3 +460,7 @@ progress::-webkit-progress-value {
     border-radius: 50px;
     background-color: #A45A49;
 }
+
+#card-receita-primeiro-colocado{
+    cursor: pointer;
+ }
