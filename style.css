@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 html {
@@ -46,7 +47,7 @@ nav a:hover {
 
 
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -463,4 +464,11 @@ progress::-webkit-progress-value {
 
 #card-receita-primeiro-colocado{
     cursor: pointer;
+ }
+ 
+ .lista-modo-preparo > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
  }
