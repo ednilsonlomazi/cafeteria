@@ -201,6 +201,7 @@ footer {
     gap: 2rem;
     max-width: 11200px;
     margin: 0rem 2rem;
+    overflow: hidden;
 
 }
 
@@ -322,7 +323,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    ;
     
 }
 
@@ -340,8 +341,8 @@ footer {
     flex-direction: row;
     gap: 1rem;
     align-items: center;
-    
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-cabecalho-like {
@@ -387,6 +388,8 @@ footer {
     text-overflow: ellipsis;
     size: 150px 150px;
 }
+
+ 
 
 .card-autor {
     display: flex;
@@ -441,7 +444,7 @@ footer {
 
 .img-gostar {
     border: none;
-    max-width: 35%;
+    width: 25px;
     margin-right: 0;
     padding-right: 0;
 }
@@ -566,7 +569,7 @@ progress::-webkit-progress-value {
     
     
     margin-bottom: 2rem;
-    
+    ;
  }
 
 
@@ -576,4 +579,8 @@ progress::-webkit-progress-value {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+ }
+
+ .card-autor-receita {
+    margin: 0;
  }
