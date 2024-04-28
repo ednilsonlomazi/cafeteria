@@ -242,6 +242,23 @@ footer {
 
 }
 
+.card-catalogo {
+    background: #241a1c;
+    padding: 2rem;
+    
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    min-width: 26rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+   
+
+}
+
 
 .card-chefe {
     background: #241a1c;
@@ -520,3 +537,20 @@ progress::-webkit-progress-value {
     height: 20rem;
  }
 
+
+ .receita-conteudo-catalogo {
+       
+    display: flex;
+    flex-direction: row;
+    
+
+    margin-top: 1rem;
+    gap: 1rem;    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+
+    
+ }
