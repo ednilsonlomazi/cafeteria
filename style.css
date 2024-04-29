@@ -584,3 +584,12 @@ progress::-webkit-progress-value {
  .card-autor-receita {
     margin: 0;
  }
+
+ .receitas-catalogo-tag-classe {
+    border: 2px solid #E7A80E;
+    
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+ }
+
+ 
