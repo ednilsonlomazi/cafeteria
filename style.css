@@ -200,15 +200,32 @@ footer {
     flex-direction: column;
     gap: 2rem;
     max-width: 11200px;
-    margin: 0rem 2rem;
+    margin: 1rem 2rem;
     overflow: hidden;
+    background-color: #1F1517;
 
 }
 
 .receitas-cabecalho {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: column  ;
+    gap: 1rem;
+
+}
+
+.receitas-container-catalogo > .receitas-cabecalho {
+    display: flex;
+    flex-direction: row  ;
+    gap: 1rem;
+
+}
+
+.receitas-cabecalho > button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #A45A49;
+    background-color: #A45A49;
+    color: white;
 }
 
 .receitas-titulo {
@@ -586,7 +603,7 @@ progress::-webkit-progress-value {
  }
 
  .receitas-catalogo-tag-classe {
-    border: 2px solid #E7A80E;
+    border: 2px solid white;
     
     border-radius: 0.5rem;
     padding: 0.2rem;
