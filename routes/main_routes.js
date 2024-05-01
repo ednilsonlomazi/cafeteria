@@ -6,6 +6,10 @@ router.get('/', (req, res) => {
     res.render('index')
 })
 
+router.get('/index', (req, res) => {
+    res.render('index')
+})
+
 router.get('/receita', (req, res) => {
     res.render('receita')
 })

@@ -1,8 +1,6 @@
 // imports
-
 const express = require( 'express')
 const app = express()
-const path = require( 'path')
 
 // Static
 app.use(express.static('public'))
